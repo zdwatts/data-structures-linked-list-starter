@@ -23,7 +23,7 @@ describe('LinkedList', () => {
             node = new Node('A');
             expect(node).to.have.property('value');
             expect(node).to.have.property('next');
-            // expect(node).to.have.property('prev');  // Doubly Linked Lists Only!
+            // expect(node).to.have.property('prev');  // Doubly Linked Lists Only! 
         });
     });
 
